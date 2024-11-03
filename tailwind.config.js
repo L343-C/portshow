@@ -8,9 +8,10 @@ export default {
     extend: {
       colors: {
         primaryTitle: "#FF6500",
-        primaryContent: "#1E3E62",
-        primaryBg:  "#0B192C ",
+        primaryContent: "#7ea3cc",
+        primaryBg:  "#0B192C",
         primarySubContent: "#FFFFFF",
+        primaryHover: "#0a1c36",
       },
     },
   },

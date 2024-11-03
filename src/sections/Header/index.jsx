@@ -9,12 +9,10 @@ const Header = () => {
         <div className='text-primarySubContent font-medium'>{data.title}</div>
         <div className='text-sm w-5/6'>{data.caption}</div>
         <div className='mt-4'>
-          <span className='rounded-md bg-primaryTitle text-white py-2 px-4'>
-            <i> 
+          <span className='rounded-md bg-primaryTitle font-medium text-white py-2 px-4'>
               <a href="https://github.com/L343-C" target='_blank'>
             View Resume
               </a>
-            </i>
             <span className='rotate-90 inline-block ml-1.5 text-sm'>
             <FontAwesomeIcon className='animate-bounce' icon={faArrowDown}/>
             </span>
